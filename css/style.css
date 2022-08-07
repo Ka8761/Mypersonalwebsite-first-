@@ -141,26 +141,17 @@ hr{
     font-weight: bold;
     font-size: 1.7rem;
   }
-@media (min-width: 300px) and (max-width: 790px){
+@media screen and (max-width: 700px){
   h1{
-    font-family: 'Sacramento', cursive;
-    font-size: 3.425rem;
-    color:  #898AA6;
-    line-height: 1;
-    margin: 50px 0 0 0;
+    
+    font-size: 2.425rem;
+
 } header{
-  background-color: #898AA6;
-  color: #B7D3DF;
-  padding: 1.5rem;
-  position: fixed;
-  width: 100%;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  
   font-size: 1rem;
 }
 .top-container{
-  background-color:  #D6EFED;
-  padding: 5rem;
+  
   margin: 0%;
 }
 }
