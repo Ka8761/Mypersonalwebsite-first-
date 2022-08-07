@@ -1,0 +1,127 @@
+body{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    color:#898AA6;
+}
+
+.top-container{
+    background-color:  #D6EFED;
+    padding: 5rem;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color:  #898AA6;
+    line-height: 1;
+    margin: 50px 0 0 0;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+h2:not(.pro){
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:  #B7D3DF;
+}
+h3{
+    color:  #898AA6;
+}
+h4{
+    font-weight: bolder;
+    color:  #898AA6;
+}
+p{
+    line-height: 2;
+}
+img{
+    max-width: 50%;
+    max-height: 50%;
+}
+hr{
+    border:dotted #D6EFED;
+    width: 5%;
+    border-bottom: none;
+    margin: 120px auto 120px auto;
+}
+.profile{
+  padding-top: 4rem;
+}
+.girlpic{
+    padding: 3rem;
+}
+.skillrow{
+    width: 50%;
+    margin: 80px auto 80px auto;
+    text-align: left;
+}
+.webdev{
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+}
+.graphics{
+    width: 40%;
+    float: right;
+    margin-left: 30px;
+}
+.contact-msg{
+    width: 40%;
+    margin: 50px auto 70px;
+}
+
+.btn {
+    font-size:21px;
+    font-family: 'Montserrat', sans-serif;
+    width:140px;
+    height:49px;
+    border-width:1px;
+    color:rgba(253, 253, 253, 1);
+    border-color:rgba(183, 211, 223, 1);
+    font-weight:bold;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    box-shadow:inset 0px 1px 0px 0px #bee2f9;
+    text-shadow:inset 0px 1px 0px #7cacde;
+    background:linear-gradient(rgba(214, 239, 237, 1), rgba(183, 211, 223, 1));
+  }
+  
+  .btn:hover {
+    background: linear-gradient(rgba(183, 211, 223, 1), rgba(214, 239, 237, 1));
+  }
+                
+  .bottom-container{
+    background-color: #898AA6;
+    margin: 70px 0 0 0;
+    padding: 2rem;
+  }
+  a{
+    color:#D6EFED;
+    text-decoration: none;
+    margin: 3px 7px 0 7px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  a:hover{
+    color: white;
+  }
+  .copywrite{
+    color:white;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  header{
+    background-color: #898AA6;
+    color: #B7D3DF;
+    padding: 1.5rem;
+    position: fixed;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+  
+/*
+dark #898AA6, medium #C9BBCF, normal #B7D3DF, light #D6EFED*/
